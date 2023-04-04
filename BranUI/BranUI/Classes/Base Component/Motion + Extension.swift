@@ -30,9 +30,8 @@ public struct LottieView: UIViewRepresentable {
     context: UIViewRepresentableContext<LottieView>
   ) -> UIView {
     let view = UIView(frame: .zero)
-    let animationView = AnimationView()
-    animationView.animation = Animation.named(lottieFile.rawValue)
-
+    let animationView = LottieAnimationView()
+    animationView.animation = LottieAnimation.named(lottieFile.rawValue)
     animationView.contentMode = .scaleAspectFit
     animationView.loopMode = mode
     animationView.play()
