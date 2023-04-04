@@ -1,6 +1,0 @@
-framework module Pods_BranUI_Tests {
-  umbrella header "Pods-BranUI_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
