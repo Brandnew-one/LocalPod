@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BranUI_Example' do
+  pod 'BranUI', :path => '../'
+
+  target 'BranUI_Tests' do
+    inherit! :search_paths
+
+    pod 'lottie-ios'
+    
+  end
+end
