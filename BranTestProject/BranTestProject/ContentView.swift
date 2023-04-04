@@ -7,13 +7,21 @@
 
 import SwiftUI
 
+import BranUI
+
 struct ContentView: View {
   var body: some View {
     VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundColor(.accentColor)
-      Text("Hello, world!")
+      Text("Hello, BranUI!")
+
+      BranButton(.orange, "Button") {
+        print("Hello")
+      }
+
+      Image.foodCart
+        .resizable()
+        .renderingMode(.template)
+        .frame(width: 28, height: 28)
     }
     .padding()
   }

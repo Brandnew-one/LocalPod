@@ -1,0 +1,23 @@
+PODS:
+  - BranUI (0.1.0):
+    - lottie-ios
+  - lottie-ios (4.1.3)
+
+DEPENDENCIES:
+  - BranUI (from `../BranUI/`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  BranUI:
+    :path: "../BranUI/"
+
+SPEC CHECKSUMS:
+  BranUI: 315db3d980d751324ac6f768abced56da895c6af
+  lottie-ios: d0954d3150061f662ed0adf96ef98d7421864c47
+
+PODFILE CHECKSUM: b3918474a2dfff35829fc3db1eea4d0b121218a5
+
+COCOAPODS: 1.11.3
